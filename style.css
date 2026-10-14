@@ -1,0 +1,34 @@
+body{
+    background-color: #f0f0f0;  /* Light gray background for the entire page */
+    font-family: Arial, sans-serif;  /* Use a clean, sans-serif font */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;  /* Dark gray text for better readability */
+}
+
+.grade-label {
+    color: #060606;          /* Style "Your grade is:" separately */
+    font-weight: Bold;
+    font-size: 18px;
+    display: block;
+
+}
+
+#gradeValue {
+    color: #007bff;       /* Style the actual grade letter differently */
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    
+}
